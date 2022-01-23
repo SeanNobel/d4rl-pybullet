@@ -61,7 +61,8 @@ register(
     max_episode_steps=1000,
     kwargs={
         'dataset_url':
-        'https://drive.google.com/file/d/1Akmlm_xHfahCTtPQEHZW3nO7S68NrgFo/view?usp=sharing'
+        # 'https://drive.google.com/file/d/1Akmlm_xHfahCTtPQEHZW3nO7S68NrgFo/view?usp=sharing'
+        'https://www.dropbox.com/s/9y1t7uvh0pgo2bf/halfcheetah-bullet-PPO_expert-v0.hdf5?dl=1'
     })
 ############################################################################################
 
