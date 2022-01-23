@@ -54,6 +54,17 @@ register(
         'https://www.dropbox.com/s/jnvpb1hp60zt2ak/halfcheetah-bullet-random-v0.hdf5?dl=1'
     })
 
+########## Added ###########################################################################
+register(
+    id='halfcheetah-bullet-PPO_expert-v0',
+    entry_point='d4rl_pybullet.envs:OfflineHalfCheetahBulletEnv',
+    max_episode_steps=1000,
+    kwargs={
+        'dataset_url':
+        'https://drive.google.com/file/d/1Akmlm_xHfahCTtPQEHZW3nO7S68NrgFo/view?usp=sharing'
+    })
+############################################################################################
+
 register(
     id='ant-bullet-medium-v0',
     entry_point='d4rl_pybullet.envs:OfflineAntBulletEnv',
